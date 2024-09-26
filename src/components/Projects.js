@@ -7,7 +7,7 @@ export default function Projects() {
         projects :[
           {
              image: websiteImg1,
-             description:'The Human Speech Emotion Recognition (SER) build with <b>ML</b>technologies and Puthon flask.',
+             description:'The Human Speech Emotion Recognition (SER) build with ML technologies and Python flask.',
              link:'',
           },
           {

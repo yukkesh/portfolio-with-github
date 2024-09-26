@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio-with-github/static/css/main.33b2fe1d.css",
+    "main.js": "/portfolio-with-github/static/js/main.5086ccc6.js",
+    "static/media/new.PNG": "/portfolio-with-github/static/media/new.267ccc4594910b456162.PNG",
+    "static/media/Screenshot (1).png": "/portfolio-with-github/static/media/Screenshot (1).6d913e22229a77a796f6.png",
+    "static/media/comp.png": "/portfolio-with-github/static/media/comp.1166367bef6a2838e3de.png",
+    "static/media/about.png": "/portfolio-with-github/static/media/about.619ff0b319a55d0c05b1.png",
+    "static/media/christ.jpg": "/portfolio-with-github/static/media/christ.8e6cb573b7b18c4cfc46.jpg",
+    "static/media/resume.jpg": "/portfolio-with-github/static/media/resume.40d9ec3d0701d254f50f.jpg",
+    "static/media/SER.png": "/portfolio-with-github/static/media/SER.188a9dce4dc7db613224.png",
+    "static/media/simon.png": "/portfolio-with-github/static/media/simon.ae63e62c22c952b580e5.png",
+    "index.html": "/portfolio-with-github/index.html",
+    "main.33b2fe1d.css.map": "/portfolio-with-github/static/css/main.33b2fe1d.css.map",
+    "main.5086ccc6.js.map": "/portfolio-with-github/static/js/main.5086ccc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33b2fe1d.css",
+    "static/js/main.5086ccc6.js"
+  ]
+}

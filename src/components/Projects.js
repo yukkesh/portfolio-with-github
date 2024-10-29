@@ -1,33 +1,33 @@
-import websiteImg1 from '../assets/SER.png';
-import websiteImg2 from '../assets/simon.png';
-import websiteImg3 from '../assets/Screenshot (1).png';
+import websiteImg4 from '../assets/biproject.jpg';
+import websiteImg5 from '../assets/tabproject.png';
+import websiteImg6 from '../assets/exproject.jpg';
 export default function Projects() {
 
     const config = {
         projects :[
           {
-             image: websiteImg1,
-             description:'The Human Speech Emotion Recognition (SER) build with ML technologies and Python flask.',
-             link:'',
+             image: websiteImg4,
+             description:'Here is my Power Bi Sales analysis dashboard of Awesome chocolate company. I downoaded thier data sets in kaggle',
+             link:'https://drive.google.com/file/d/1dxHptM48qjjVX2UiISDihOv-QC1skD0Q/view?usp=drivesdk',
           },
           {
-            image: websiteImg2,
-            description:'The Simon game project built with plain HTML and JavaScript.',
-            link:'https://github.com/yukkesh/simon-game.git',
+            image: websiteImg5,
+            description:'This is my Tableau HR report, That tells you the companies employees details in dashboard.',
+            link:'https://public.tableau.com/views/TableauPortfolio_17298479390880/HRDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link',
          },
          {
-            image: websiteImg3,
-            description:'My portfolio website, built with React.js and Tailwind CSS.',
-            link:'https://github.com/yukkesh/portfolio-with-github.git',
+            image: websiteImg6,
+            description:'This is my Excel report with dashboard and it tells you about Bike sales analysis.',
+            link:'https://1drv.ms/x/c/1c752f3f521a3b04/EQLPrylnITBCnqAExRDIpgkB3X5DJ3n4l_fms65a6bE9cA?e=nv7cXg',
          },
          
        ]
     }
-    return <section id='projects' className="flex  flex-col py-20 px-5 justify-center bg-primary text-white ">
+    return <section id='projects' className="flex  flex-col py-20 px-5 justify-center bg-black text-white ">
     <div className="w-full">
     <div className="flex flex-col px-10 py-5">
-    <h1 className="text-4xl border-b-4 border-[#494ca1] mb-5 w-[150px] font-bold">Projects</h1>
-    <p className='text-black font-bold'>These are some of my best projects. I have built these with React, Python flask, tailwind CSS. Check them out.</p>
+    <h1 className="text-4xl border-b-4 border-[#eeb712] mb-5 w-[150px] font-bold">Projects</h1>
+    <p className='text-white font-bold'>Here are my best projects. I have created these with Power BI, Tableau, Excel. Give them a look.</p>
 
     </div>
      
@@ -40,7 +40,7 @@ export default function Projects() {
                     <div className='project-desc'>
                         <p className='text-center px-5 py-5'>{project.description}</p>
                         <div className='flex justify-center'>
-                                  <a className='btn' target='_blank' href={project.link}>Veiw project</a>
+                                  <a className='btn text-black' target='_blank' href={project.link}>Veiw project</a>
                             </div>
                     </div>
                            

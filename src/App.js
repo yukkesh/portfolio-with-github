@@ -6,13 +6,14 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/contact';
 import Footer from './components/Footer';
-
+import Certificate from './components/Certificate';
 function App() {
   return (
     <div className="App">
       <Header/>
       <Hero/>
       <About/>
+      <Certificate/>
       <Projects/>
       <Resume/>
       <Contact/>

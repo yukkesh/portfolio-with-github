@@ -7,11 +7,11 @@ header ul li{
 }
 
 .bg-primary {
-  background-image:url("D:\portfolio\src\assets\comp.png");
+  background-color: #eeb712;
   background-size:cover;
 }
 .bg-secondary{
-  background-image: url("D:\portfolio\src\assets\christ.jpg");
+  background-image:#000000;
   background-size: cover;
 }
 .mobile-nav{
@@ -28,4 +28,10 @@ header ul li{
 }
 html {
   scroll-behavior: smooth;
+}
+.text-border{
+  @apply border-black
+}
+.btn1{
+  @apply bg-black px-5 py-2 font-bold hover:border-2 border-white rounded;
 }

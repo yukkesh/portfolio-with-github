@@ -7,7 +7,7 @@ export default function Hero(){
             
             instagram:'https://www.instagram.com/vijay_d_analyst/',
             linkedin:'https://www.linkedin.com/in/vijay-s-ba5b3227a/?trk=opento_sprofile_details',
-            github:'https://github.com/Vj141002',
+            github:'https://github.com/vijaydanalystcler',
         }
     }
 

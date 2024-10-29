@@ -120,6 +120,9 @@
   "gh-pages": "^6.2.0",
   
     
+  "git-pages": "^0.8.1",
+  
+    
   "tailwindcss": "^3.4.10"
   
   }
